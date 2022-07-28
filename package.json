@@ -1,0 +1,28 @@
+{
+  "name": "event-management-project",
+  "version": "1.0.0",
+  "description": "Event-Management project in which user can create account and login the user and he can create the event and also he can invite another user to join the user",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaibhav702/Event-Management-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vaibhav702/Event-Management-Project/issues"
+  },
+  "homepage": "https://github.com/vaibhav702/Event-Management-Project#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.6",
+    "nodemon": "^2.0.19"
+  }
+}
